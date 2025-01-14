@@ -1,0 +1,26 @@
+Para executar o programa, dê 2 cliques no 'BibliotecaPython'
+
+
+O arquivo 'biblioteca_dados' está com os dados de teste,
+se quiser cadastrar do zero, apenas delete o arquivo 'biblioteca_dados'
+
+
+O método utilizado no desenvolvimento desse código é conhecido como programação orientada a objetos (POO). 
+Nesse paradigma de programação, as estruturas de dados e operações são organizadas em classes e objetos, 
+com foco na reutilização de código e na modelagem de problemas de forma mais próxima do mundo real.
+
+No código fornecido, foram criadas três classes principais: `Livro`, `Usuario` e `Biblioteca`, 
+cada uma representando entidades do domínio de uma biblioteca. Essas classes encapsulam dados 
+(atributos) e comportamentos (métodos) relacionados a essas entidades.
+
+Além disso, o código utiliza conceitos como herança, polimorfismo, encapsulamento e abstração, 
+que são pilares da programação orientada a objetos. Por exemplo, a classe `Livro` e a classe `Usuario` 
+possuem métodos para transformar seus dados em dicionários, facilitando a serialização para JSON.
+
+No `main()` e nas outras funções do programa, os objetos dessas classes são criados e manipulados 
+para realizar as operações de cadastro de livros e usuários, empréstimos, devoluções, consultas e 
+geração de relatórios.
+
+Resumindo... 
+A programação orientada a objetos foi utilizada para estruturar e modularizar o código de 
+forma mais organizada e coesa, facilitando sua compreensão, manutenção e extensão.
